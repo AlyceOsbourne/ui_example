@@ -1,0 +1,18 @@
+[gd_scene load_steps=3 format=3 uid="uid://bn5bdymowutul"]
+
+[ext_resource type="Script" uid="uid://cu1twjkfsvgsp" path="res://UIHandler.gd" id="1_2jas5"]
+
+[sub_resource type="GDScript" id="GDScript_2jas5"]
+script/source = "extends Label
+
+func update_ui(data: Dictionary):
+    self.text = \",\".join(data.get(\"currently_selected\", []))
+"
+
+[node name="Control" type="CanvasLayer"]
+script = ExtResource("1_2jas5")
+
+[node name="Label" type="Label" parent="."]
+offset_right = 40.0
+offset_bottom = 23.0
+script = SubResource("GDScript_2jas5")
