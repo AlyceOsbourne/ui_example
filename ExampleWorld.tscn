@@ -1,6 +1,6 @@
 [gd_scene load_steps=4 format=3 uid="uid://cp0j2awqihihe"]
 
-[ext_resource type="PackedScene" uid="uid://bn5bdymowutul" path="res://example.tscn" id="1_cpdco"]
+[ext_resource type="PackedScene" uid="uid://bn5bdymowutul" path="res://ExampleUI.tscn" id="1_cpdco"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_b2afa"]
 
